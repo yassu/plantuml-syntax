@@ -26,6 +26,7 @@ syntax region plantumlDir start=/\s\+/ms=s+1 end=/$/ contained
 syntax keyword plantumlTypeKeyword namespace component package interface class interface enum object participant activity skinparam 
 syntax keyword plantumlKeyword actor partition title activate as deactivate note left right top bottom of end
 syntax keyword plantumlKeyword if then else endif
+syntax keyword plantumlKeyword alt opt loop par break critical group
 
 syntax keyword plantumlCommentTODO XXX TODO FIXME NOTE contained
 syntax match plantumlColor /#[0-9A-Fa-f]\{6\}\>/
