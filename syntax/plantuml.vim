@@ -24,7 +24,7 @@ syntax match plantumlPreProc /\%(^@startuml\|^@enduml\)\|!\%(include\|ifdef\|def
 syntax region plantumlDir start=/\s\+/ms=s+1 end=/$/ contained
 
 syntax keyword plantumlTypeKeyword namespace component package interface class interface enum object participant activity skinparam 
-syntax keyword plantumlKeyword actor partition title activate as deactivate note hnote rnote left right top bottom of end
+syntax keyword plantumlKeyword actor partition title legend endlegend activate as deactivate note hnote rnote left right top bottom of end
 syntax keyword plantumlKeyword if then else endif
 
 syntax keyword plantumlCommentTODO XXX TODO FIXME NOTE contained
